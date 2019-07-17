@@ -70,6 +70,56 @@ body {
 }
 
 .skillssection {
-  background-color:#FD7272;
+  background-color:#e1b12c;
   color: #fff;
+}
+
+.skill {
+	 text-align: center;
+	 margin-left:10px;
+}
+
+.chart {
+	position:relative;
+	width: 152px;
+	height: 152px;
+	display: inline-block;
+	text-align: center;
+}
+
+.chart canvas {
+	position: absolute;
+	left:0;
+	top:0;
+}
+.chart .percent {
+	color: #000;
+	line-height:152px;
+	display: imline-block;
+	font-size: 20px;
+}
+
+.chart .percent:after {
+	content: '%';
+}
+
+.skill .skillset {
+  font-family: 'monospace';
+	font-size: 20px;
+	color: #000;
+}
+
+
+.contactButton {
+	color: #000;
+	padding:15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid #000;
+  border-radius: 2px;
+}
+
+.contactButton:hover {
+	text-decoration: none;
+	color: #e74c3c;
 }

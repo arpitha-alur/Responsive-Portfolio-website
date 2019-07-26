@@ -116,12 +116,23 @@ body {
 	display: inline-block;
 	margin-top: 20px;
 	border: 1px solid #000;
-  border-radius: 2px;
+	border-radius: 5px;
+	font-size: 20px;
 }
 
 .contactButton:hover {
 	text-decoration: none;
-	color: #e1b12c;
+	color: #3B5998;
+}
+
+/*.contactimage {
+	background-image: url(../img/icons/item13.jpg);
+	z-index: 3;
+
+}*/
+
+.contactSection h2 {
+	color:#000;
 }
 
 .filter a {
@@ -151,11 +162,12 @@ body {
 	text-align: center;
 	padding-bottom: 40px;
 	width:100%;
+	
 }
 
 .items li {
 	display: inline-block;
-	padding:5px;
+	padding:10px;
 }
 
 .itemsContainer {
@@ -253,4 +265,63 @@ body {
 
 .items {
 	padding:0;
+}
+
+.items .item {
+	position: relative; 
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.items .item .centered {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	font-size: 25px;
+	color:#fff;
+}
+
+.copyrightSection {
+	background-color: #000;
+	color:#fff;
+	padding: 30px 5px;
+}
+
+.copyrightSection p {
+	margin: 0;
+}
+
+#navigation {
+	background-color: #e1b12c;
+	padding: 20px 10px;
+	z-index: 100;
+	width: 100%;
+}
+
+#navigation li {
+	padding:0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand , .navbar-brand:hover  {
+	color: #fff;
+}
+
+.navbar-toggler-icon {
+	background: url(../img/icons/menu1.png);
+	background-size: 100%;
+}
+
+.fixedNav #navigation {
+	 position: fixed;
+	 top:0;
+}
+
+#portfolio {
+	background-image: url(../img/img13.jpg);
+	background-size: cover;
 }
